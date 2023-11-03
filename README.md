@@ -16,11 +16,7 @@ The simulation data is named QOT_Simulation.csv.
 The implementation is based on Python. We provide our code using the Google Colab. All the relevant packages are installed within the Notebook. To run this file, one might need to access Colab Pro due to the RAM requirement. 
 ### Usage
 Please run the notebooks one by one. We compare the proposed method with the Exact WD and Image-Based algorithm as discussed in our paper. The evaluation metric is also shown in the code.  Notice that if this is run on the local machine, please adjust the path of simulation data.
-```bash
-pip install -r requirements.txt
-```
 
-### Usage
 
 ### Contacts
 
