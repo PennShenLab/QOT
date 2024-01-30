@@ -20,7 +20,7 @@ To download the dependecies, use
 pip install -r QOT/requirements.txt
 ```
 ### Usage
-The implementation is based on Python. To check each dataset, simply run corresponding notebook under QOT folder.
+The implementation is based on Python. To check each dataset, simply run corresponding notebook under QOT/Tutorial folder.
 
 ### Contacts
 
