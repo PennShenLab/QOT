@@ -1,6 +1,8 @@
-# Efficient Mining of Mass Cytometry Data through Optimal Transport
+# QOT: Efficient Computation of Sample Level Distance
+Matrix from Single-Cell Omics Data through
+Quantized Optimal Transport
 
-This repository holds the official source codes of the **QOT_CYTO** (Quantized Optimal Transport for Mass Cytometry) package for the paper [Efficient Mining of Mass Cytometry Data through Optimal Transport]()
+This repository holds the official source codes of the **QOT** package for the paper [QOT: Efficient Computation of Sample Level Distance Matrix from Single-Cell Omics Data through Quantized Optimal Transport]()
 
 ```
 @article {
@@ -8,15 +10,17 @@ This repository holds the official source codes of the **QOT_CYTO** (Quantized O
 ```
 
 ### Abstract
-Mass Cytometry has emerged as a transformative technology enabling high-dimensional characterization of cell populations at an unprecedented scale. It offers over 40 channels capturing intricate cellular features, aiding in the comprehensive analysis of immune responses and cellular heterogeneity in health and disease. However, the innate complexity and the volume of data generated present computational and analytical challenges, especially in comparative studies aiming to delineate cellular architectures across different biological conditions. Optimal Transport (OT) is a useful tool to capture the intrinsic structure of data geometrically. Algorithms based on linear programming for calculating OT distances have a cubic time complexity with respect to the input size. This characteristic renders OT inefficient and often infeasible for scenarios involving large samples. In this paper, we present a novel algorithm that enables efficient computation of large-scale mass cytometry data through a quantization step. We apply our algorithm to mass cytometry data derived from COVID-19 patients, aiming to extrapolate cell-level insights to inform population-level categorizations. Our empirical study yields promising results, showing the effectiveness of the proposed algorithm in significantly expedited computation in comparison with multiple competing methods. Additionally, it accurately approximates the original OT-based Wasserstein distance, guaranteeing high fidelity in the representation of intrinsic data characteristics.
+Single-cell technologies have emerged as a transformative technology enabling high-dimensional characterization of cell populations at an unprecedented scale. The data's innate complexity and voluminous nature pose significant computational and analytical challenges, especially in comparative studies delineating cellular architectures across various biological conditions (i.e., generation of sample level distance matrices). Optimal Transport (OT) is a mathematical tool that captures the intrinsic structure of data geometrically and has been applied to many bioinformatics tasks. In this paper, we propose QOT (Quantized Optimal Transport), a new method enables efficient computation of sample level distance matrix from large-scale single-cell omics data through a quantization step. We apply our algorithm to real-world single-cell genomics and pathomics datasets, aiming to extrapolate cell-level insights to inform sample level categorizations. Our empirical study shows that QOT outperforms OT-based algorithms in terms of accuracy and robustness when obtaining a distance matrix at the sample level from high throughput single-cell measures. Moreover, the sample level distance matrix could be used in downstream analysis (i.e. uncover the trajectory of disease progression), highlighting its usage in biomedical informatics and data science.
 
 ### Data
-The simulation data is named QOT_Simulation.csv. 
+Four Dataset are used in this study, Myocardial Infarction, PDAC, Kidney IgAN (Tubule), and Kidney IgAN (Glomeruli). The first two datasets could be downloaded at Myocardial Infarction [here](https://costalab.ukaachen.de/open_data/PILOT/myocardial_infarction.h5ad) and PDAC [here](https://costalab.ukaachen.de/open_data/PILOT/PDAC.h5ad). The two Kidney datasets are located at QOT/Dataset/Kidney_IgAN_T.h5ad and QOT/Dataset/Kidney_IgAN_G.h5ad.
 ### Requirments
-The implementation is based on Python. We provide our code using the Google Colab. All the relevant packages are installed within the Notebook. To run this file, one might need to access Colab Pro due to the RAM requirement. 
+To download the dependecies, use 
+```
+pip install -r QOT/requirements.txt
+```
 ### Usage
-Please run the cells one by one. We compare the proposed method with the Exact WD and Image-Based algorithm as discussed in our paper. The evaluation metric is also shown in the code.  Notice that if this is run on the local machine, please adjust the path of simulation data.
-
+The implementation is based on Python. To check each dataset, simply run corresponding notebook under QOT folder.
 
 ### Contacts
 
