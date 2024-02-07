@@ -5,7 +5,9 @@ Quantized Optimal Transport
 This repository holds the official source codes of the **QOT** package for the paper [QOT: Efficient Computation of Sample Level Distance Matrix from Single-Cell Omics Data through Quantized Optimal Transport]()
 
 ```
-@article {
+@article {QOT: Efficient Computation of Sample Level Distance Matrix from Single-Cell Omics Data through Quantized Optimal Transport
+Zexuan Wang, Qipeng Zhan, Shu Yang, Shizhuo Mu, Jiong Chen, Sumita Garai, Patryk Orzechowski, Joost Wagenaar, Li Shen
+bioRxiv 2024.02.06.578032; doi: https://doi.org/10.1101/2024.02.06.578032
 }
 ```
 
