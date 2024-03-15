@@ -1,0 +1,7 @@
+pandas
+matplotlib
+numpy
+scikit-learn
+POT
+scanpy
+phate
