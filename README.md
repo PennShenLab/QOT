@@ -16,13 +16,9 @@ Single-cell technologies have emerged as a transformative technology enabling hi
 
 ### Data
 Four Dataset are used in this study, Myocardial Infarction, PDAC, Kidney IgAN (Tubule), and Kidney IgAN (Glomeruli). The first two datasets could be downloaded at Myocardial Infarction [here](https://costalab.ukaachen.de/open_data/PILOT/myocardial_infarction.h5ad) and PDAC [here](https://costalab.ukaachen.de/open_data/PILOT/PDAC.h5ad). The two Kidney datasets are located at QOT/Dataset/Kidney_IgAN_T.h5ad and QOT/Dataset/Kidney_IgAN_G.h5ad.
-### Requirments
-To download the dependecies, use 
-```
-pip install -r QOT/requirements.txt
-```
+
 ### Usage
-The implementation is based on Python. To check each dataset, simply run corresponding notebook under QOT/Tutorial folder.
+The implementation is based on Python. To check each dataset, simply run the notebook under QOT/Tutorial folder.
 
 ### Contacts
 
