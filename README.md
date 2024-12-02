@@ -23,6 +23,48 @@ Real-world Datasets could be downloaded at [here](https://zenodo.org/records/837
 Installation is explicitly handled within each notebook, and all experiments are executed through Google Colab. This setup eliminates the need for users to manage tedious requirements. Additionally, the application of subgroup detection partially relies on the [PILOT](https://github.com/CostaLab/PILOT/tree/main) package, which is also installed directly in the code. 
 
 
+## 💡 API Reference
+The QOT method take standatd [Annotated data](https://anndata.readthedocs.io/en/stable/). It should be good if your datasets follow the same criterion,
+
+API for Run_QOT
+
+| Parameter |  Description                |
+| :-------- |  :------------------------- |
+| `adata` | anndata file for single cell sequence |
+| `gene_matrix` | Data Matrix |
+| `type_cell` |  celltype |
+| `id_col` |  sampleID |
+| `progession` |  Disease Status |
+| `dataset_type` |  rna use adata.obsm[gene_matrix] or pathomics use adata.X  |
+| `num_components_list` |  number of num_components of each GMM, integar number |
+| `random_state` |  random_state for reproducibility |
+| `min_samples_for_gmm` |  specificy minimu sample to consider gmm (could use as denoise) by default 1 |
+| `qot_method` |  ground metric for QOT algorithm, choice of "cosine","euclidean","exact" |
+| `normalized_set` |  whether normalize qot distance matrix |
+
+
+API for trajectory_analysis
+| Parameter |  Description                |
+| :-------- |  :------------------------- |
+| `adata` | anndata file for single cell sequence |
+| `knn` |  neareast neighbour for building deffusion graph  |
+| `dataset_name` |  input dataset to access real label |
+
+API for compute_shapley_values
+
+| Parameter |  Description                |
+| :-------- |  :------------------------- |
+| `adata` | anndata file for single cell sequence |
+| `n_components` |  components of pca for compute shaply value  |
+| `num_components_list` |  number of num_components of each GMM, integar number |
+| `random_state` |  random_state for reproducibility |
+| `min_samples_for_gmm` |  specificy minimu sample to consider gmm (could use as denoise) by default 1 |
+| `qot_method` |  ground metric for QOT algorithm, choice of "cosine","euclidean","exact" |
+| `gene_matrix` | Data Matrix |
+| `type_cell` |  celltype |
+| `id_col` |  sampleID |
+| `progession` |  Disease Status |
+| `dataset_type` |  rna use adata.obsm[gene_matrix] or pathomics use adata.X  |
 ### 💡 Usage
 We provide two Jupyter notebooks that encompass all the experiments and results presented in our paper:
 ```terminal
