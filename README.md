@@ -84,7 +84,7 @@ QOT_Rest.ipynb
 ```
 This notebook contains the remaining results.
 
-### Contacts
+## 💡 Contacts
 
 - [Zexuan Wang](mailto:zxwang@sas.upenn.edu) 
 - [Li Shen](mailto:li.shen@pennmedicine.upenn.edu) 
