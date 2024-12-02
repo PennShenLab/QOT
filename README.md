@@ -26,9 +26,9 @@ We provide two Jupyter notebooks that encompass all the experiments and results 
 QOT_PDAC_Example.ipynb
 ```
 This notebook first computes the sample-level distance matrix using our QOT algorithm. It then conducts three biological experiments:
--Trajectory Inference
--Driven Gene Identification
--Subgroup Detection, along with differential expression analysis.
+- Trajectory Inference
+- Driven Gene Identification
+- Subgroup Detection, along with differential expression analysis.
 
 ```terminal
 QOT_Rest.ipynb 
