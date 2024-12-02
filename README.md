@@ -20,7 +20,11 @@ Real-world Datasets could be downloaded at [here](https://zenodo.org/records/837
 
 
 ### Usage
-The implementation is based on Python. To check each dataset, simply run the notebook under QOT/Tutorial folder.
+The implementation is based on Python. We provide 2 notebooks that contains all the experiment and result in our paper.
+```terminal
+QOT_PDAC_Example.ipynb
+```
+
 
 ### Contacts
 
