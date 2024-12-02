@@ -9,18 +9,21 @@ bioRxiv 2024.02.06.578032; doi: https://doi.org/10.1101/2024.02.06.578032
 }
 ```
 
-### Abstract
+### 💡 Abstract
 Single-cell technologies have emerged as a transformative technology enabling high-dimensional characterization of cell populations at an unprecedented scale. The data's innate complexity and voluminous nature pose significant computational and analytical challenges, especially in comparative studies delineating cellular architectures across various biological conditions (i.e., generation of sample level distance matrices). Optimal Transport (OT) is a mathematical tool that captures the intrinsic structure of data geometrically and has been applied to many bioinformatics tasks. In this paper, we propose QOT (Quantized Optimal Transport), a new method enables efficient computation of sample level distance matrix from large-scale single-cell omics data through a quantization step. We apply our algorithm to real-world single-cell genomics and pathomics datasets, aiming to extrapolate cell-level insights to inform sample level categorizations. Our empirical study shows that QOT outperforms OT-based algorithms in terms of accuracy and robustness when obtaining a distance matrix at the sample level from high throughput single-cell measures. Moreover, the sample level distance matrix could be used in downstream analysis (i.e. uncover the trajectory of disease progression), highlighting its usage in biomedical informatics and data science.
 ![alt text](https://github.com/PennShenLab/QOT/blob/main/flow.png)
 
-### Data
+
+### 💡 Data
 Simulation Datasets could be found at the github folder under Simulation Datasets.
 Real-world Datasets could be downloaded at [here](https://zenodo.org/records/8370081) and [here](https://zenodo.org/records/7957118).
 
 
-### Requirment
-The implementation is based on Python, and 
-### Usage
+### 💡 Requirment
+Installation is explicitly handled within each notebook, and all experiments are executed through Google Colab. This setup eliminates the need for users to manage tedious requirements. Additionally, the application of subgroup detection partially relies on the [PILOT](https://github.com/CostaLab/PILOT/tree/main) package, which is also installed directly in the code. 
+
+
+### 💡 Usage
 We provide two Jupyter notebooks that encompass all the experiments and results presented in our paper:
 ```terminal
 QOT_PDAC_Example.ipynb
