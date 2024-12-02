@@ -1,4 +1,4 @@
-# QOT: Efficient Computation of Sample Level Distance Matrix from Single-Cell Omics Data through Quantized Optimal Transport
+## QOT: Efficient Computation of Sample Level Distance Matrix from Single-Cell Omics Data through Quantized Optimal Transport
 
 This repository holds the official source codes of the **QOT** package for the paper [QOT: Efficient Computation of Sample Level Distance Matrix from Single-Cell Omics Data through Quantized Optimal Transport]()
 
@@ -20,7 +20,7 @@ Real-world Datasets could be downloaded at [here](https://zenodo.org/records/837
 
 
 ### Usage
-The implementation is based on Python. We provide 2 notebooks that contains all the experiment and result in our paper.
+The implementation is based on Python. We provide 2 notebooks that contains all the experiment and result in our paper. In
 ```terminal
 QOT_PDAC_Example.ipynb
 ```
