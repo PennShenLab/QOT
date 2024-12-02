@@ -20,10 +20,10 @@ Real-world Datasets could be downloaded at [here](https://zenodo.org/records/837
 
 
 ### Usage
-The implementation is based on Python. We provide 2 notebooks that contains all the experiment and result in our paper. In
-```terminal
-QOT_PDAC_Example.ipynb
-```
+The implementation is based on Python. We provide 2 notebooks that contains all the experiment and result in our paper. 
+
+- **[QOT_PDAC_Example.ipynb]
+
 
 
 ### Contacts
