@@ -18,14 +18,22 @@ Simulation Datasets could be found at the github folder under Simulation Dataset
 Real-world Datasets could be downloaded at [here](https://zenodo.org/records/8370081) and [here](https://zenodo.org/records/7957118).
 
 
-
+### Requirment
+The implementation is based on Python, and 
 ### Usage
-The implementation is based on Python. We provide 2 notebooks that contains all the experiment and result in our paper. 
+We provide two Jupyter notebooks that encompass all the experiments and results presented in our paper:
+```terminal
+QOT_PDAC_Example.ipynb
+```
+This notebook first computes the sample-level distance matrix using our QOT algorithm. It then conducts three biological experiments:
+-Trajectory Inference
+-Driven Gene Identification
+-Subgroup Detection, along with differential expression analysis.
 
-- QOT_PDAC_Example.ipynb first compute the sample level distance matrix by our QOT algorithm, then conduct 3 biological experiment 1)Trajectory Inference 2)Driven Gene Indentification 3)Subgroup Detection along with Differential expression analysis
-- QOT_Rest.ipynb contains the rest of 11 results of 11 datasets. 
-
-
+```terminal
+QOT_Rest.ipynb 
+```
+This notebook contains the remaining results.
 
 ### Contacts
 
