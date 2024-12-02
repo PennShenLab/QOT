@@ -23,7 +23,7 @@ Real-world Datasets could be downloaded at [here](https://zenodo.org/records/837
 Installation is explicitly handled within each notebook, and all experiments are executed through Google Colab. This setup eliminates the need for users to manage tedious requirements. Additionally, the application of subgroup detection partially relies on the [PILOT](https://github.com/CostaLab/PILOT/tree/main) package, which is also installed directly in the code. 
 
 
-## 💡 API Reference
+### 💡 API Reference
 The QOT method take standatd [Annotated data](https://anndata.readthedocs.io/en/stable/). It should be good if your datasets follow the same criterion,
 
 API for Run_QOT
