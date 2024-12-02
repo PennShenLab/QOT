@@ -22,7 +22,8 @@ Real-world Datasets could be downloaded at [here](https://zenodo.org/records/837
 ### Usage
 The implementation is based on Python. We provide 2 notebooks that contains all the experiment and result in our paper. 
 
-- **[QOT_PDAC_Example.ipynb]
+- QOT_PDAC_Example.ipynb first compute the sample level distance matrix by our QOT algorithm, then conduct 3 biological experiment 1)Trajectory Inference 2)Driven Gene Indentification 3)Subgroup Detection along with Differential expression analysis
+- QOT_Rest.ipynb contains the rest of 11 results of 11 datasets. 
 
 
 
