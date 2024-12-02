@@ -1,5 +1,6 @@
 ## QOT: Efficient Computation of Sample Level Distance Matrix from Single-Cell Omics Data through Quantized Optimal Transport
 
+### 🎯 
 This repository holds the official source codes of the **QOT** package for the paper [QOT: Efficient Computation of Sample Level Distance Matrix from Single-Cell Omics Data through Quantized Optimal Transport]()
 
 ```
