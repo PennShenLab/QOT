@@ -70,7 +70,7 @@ The QOT method takes standard [Annotated data](https://anndata.readthedocs.io/en
 
 
 ## 💡 Usage
-We provide two Jupyter notebooks that encompass all the experiments and results presented in our paper:
+We provide two Jupyter notebooks containing all the experiments and results discussed in our paper. To run each notebook, ensure that the qot_utils.re.py file is placed under the content directory in Google Colab. Additionally, update the file paths for each dataset accordingly:
 ```terminal
 QOT_PDAC_Example.ipynb
 ```
