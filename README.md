@@ -70,19 +70,15 @@ The QOT method takes standard [Annotated data](https://anndata.readthedocs.io/en
 
 
 ## 💡 Usage
-We provide two Jupyter notebooks containing all the experiments and results discussed in our paper. To run each notebook, ensure that the qot_utils.re.py file is placed under the content directory in Google Colab. Additionally, update the file paths for each dataset accordingly:
-```terminal
-QOT_PDAC_Example.ipynb
-```
+We provide two Jupyter notebooks containing all the experiments and results discussed in our paper. To run each notebook, ensure that the qot_utils.re.py file is placed under the content directory in Google Colab. Additionally, update the file paths for each dataset accordingly: [QOT_PDAC_Example.ipynb](https://github.com/PennShenLab/QOT/blob/main/QOT_PDAC_Example.ipynb)
+
 This notebook first computes the sample-level distance matrix using our QOT algorithm. It then conducts three biological experiments:
 - Trajectory Inference
 - Driven Gene Identification
 - Subgroup Detection, along with differential expression analysis.
 
-```terminal
-QOT_Rest.ipynb 
-```
-This notebook contains the remaining results.
+This notebook contains the remaining results: [QOT_Rest.ipynb](https://github.com/PennShenLab/QOT/blob/main/QOT_Rest.ipynb)
+
 
 ## 💡 Contacts
 
